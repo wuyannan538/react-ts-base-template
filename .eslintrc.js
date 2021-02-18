@@ -10,7 +10,8 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: "module"
+    sourceType: "module",
+    parser: "@typescript-eslint/parser"
   },
   plugins: ["react", "@typescript-eslint", "prettier"],
   rules: {
