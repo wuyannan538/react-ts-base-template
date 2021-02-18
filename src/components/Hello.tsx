@@ -1,7 +1,7 @@
 import * as React from "react";
 export interface IProps {
   compiler: string;
-    framework: string;
+     framework: string;
 }
 
 export const Hello: React.FC<IProps> = (props) => (
