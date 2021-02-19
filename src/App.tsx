@@ -1,7 +1,7 @@
 import React from "react";
 import Hello from "./components/hello/Hello";
 import Test from "./components/test/Test";
-import "./styles/common.css";
+import "./styles/common.scss";
 
 const App: React.FC = () => (
   <div>
