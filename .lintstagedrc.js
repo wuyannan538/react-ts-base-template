@@ -4,5 +4,5 @@ const format = "prettier --write";
 
 module.exports = {
   "src/**/*.[t|j]s?(x)": [format, lint],
-  "src/**/*.s?css": [stylelint]
+  "src/**/*.[s]css": [stylelint]
 };
